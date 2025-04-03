@@ -12,5 +12,8 @@ Pod::Spec.new do |s|
     s.source_files     = 'MyAwesomePod/*.h', 'MyAwesomePod/*.m'
     s.public_header_files = 'MyAwesomePod/*.h'
     s.frameworks       = 'Foundation'
+    s.ios.deployment_target = '12.0'  # Hoặc phiên bản cao hơn
+    s.osx.deployment_target = '10.13'  # Hoặc phiên bản cao hơn
+
   end
   
