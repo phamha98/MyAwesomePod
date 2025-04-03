@@ -4,7 +4,9 @@
 @implementation MyAwesomePod
 
 - (void)helloWorld {
-    NSLog(@"Hello from MyAwesomePod!");
+    NSString *label = @ "Hello from MyAwesomePod!";
+    NSLog(@"%@", label); // Log giá trị thật của label
+    return label;
 }
 
 @end

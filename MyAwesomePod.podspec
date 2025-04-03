@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'MyAwesomePod'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = 'A simple pod to say Hello World'
     s.description      = 'MyAwesomePod is a simple CocoaPod that prints "Hello from MyAwesomePod!"'
     s.homepage         = 'https://github.com/phamha98/MyAwesomePod'
