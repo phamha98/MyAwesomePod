@@ -3,6 +3,6 @@
 
 @interface MyAwesomePod : NSObject
 
-- (void)helloWorld;
+- (NSString *)helloWorld;
 
 @end
