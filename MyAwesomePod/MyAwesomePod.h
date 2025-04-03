@@ -3,6 +3,6 @@
 
 @interface MyAwesomePod : NSObject
 
-- (NSString *)helloWorld;
++ (NSString *)helloWorld;// Định nghĩa class method
 
 @end

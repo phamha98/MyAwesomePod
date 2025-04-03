@@ -1,11 +1,10 @@
-// MyAwesomePod.m
 #import "MyAwesomePod.h"
 
 @implementation MyAwesomePod
 
-- (NSString *)helloWorld {
-    NSString *label = @ "Hello from MyAwesomePod!";
-    NSLog(@"%@", label); // Log giá trị thật của label
++ (NSString *)helloWorld { // Sửa thành class method
+    NSString *label = @"Hello from MyAwesomePod!";
+    NSLog(@"%@", label);
     return label;
 }
 
